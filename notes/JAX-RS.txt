@@ -1,0 +1,23 @@
+JAX-RS
+
+ Java for XML "REST" services
+
+Part of JAVA-EE Architecture
+All Java EE Servers support JAX-RS
+
+1. Oracle WebLogic
+2. IBM WebSphere
+3. JBoss Wildfly
+4. Glassfish
+5. Apache TomEE (Only for "local" environment)
+
+Independent implementations :
+1. RestEasy
+2. Jersey
+
+Alternatives framework:
+1. Spring WS 
+
+JAX-RS Older API	package: javax.ws.rs
+JAX-RS Newer API	package: jakarta.ws.rs
+  

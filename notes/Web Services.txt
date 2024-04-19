@@ -1,0 +1,24 @@
+Web Services
+
+A service is an application that DO NOT interact with end users directly.
+
+A Service communicates with Other services or client-application.
+
+
+Types of Web Services:
+
+Older format : SOAP (XML) Web services
+Newer format : REST web services
+
+SOAP uses "XML" for request, response and even for describing the services.
++ SOAP services are portable across programing languages   
+- SOAP is heavier on resource consumption
+	XML processing, validating and read/write XML documents take a lot time. (JAX-P > Parsing XML, JAX-B > Java to XML Binding, JAX-WS > Web services, JAX-RS > Rest )
++ Built in Security features (Authorization and Encryption)
+
+REST / RESTFul Services
+- REST avoids using XML for request, response and describing the services.
+- REST are lightweight than XML web services
+- No Built in security
+- Either use HTTP Server's security or/and third party features like "JWT"
+- Third party tool documentation tools : Swagger

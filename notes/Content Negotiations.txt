@@ -1,0 +1,26 @@
+Content Negotiations
+
+"Contents" could be "A Request" from client or "A Response" from server
+
+For "Response" from server use annotation @Produces
+For "Request" from client use annotation @Consumes
+
+Both these annotations use following data formats (MIME Type)
+
+text/plain		>> Plain text
+text/html		>> HTML Page or fragments
+text/csv		>> Comma seperated verbs
+text/xml (OLD)		>> XML Text
+text/json (OLD)		>> JSON Text
+application/xml		>> XML Documents
+application/json	>> JSON	
+
+Binary formats
+image/jpeg		
+application/pdf
+
+Built in "Response" Writers which could convert a Java object to JSON or XML
+
+CLient expect "response" in a certain data format and server "support" for certain data format. 
+1. A common format supported by server and client
+2. No match found, returns an error [ 406 : Negotiation failed ] 

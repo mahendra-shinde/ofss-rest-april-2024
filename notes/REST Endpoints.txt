@@ -1,0 +1,26 @@
+REST Endpoints
+
+https://dummy.restapiexample.com/api/v1/employees
+
+
+https://			The protocol
+dummy.restapiexample.com	The HOSTNAME or Domain
+api/v1/employees		The PATH to the "resource"
+
+
+Why "api/"  > Just a "hint" to client, this one is API and not webpage.
+Why "v1/"   > Refer to "Exact" version of API
+		In future you might add new version "v2"	
+
+		You might get version numbers like v1.0.2 or release-1
+
+https://dummy.restapiexample.com/api/v1/delete/2/
+
+api/v1/delete/2/	> "2" is "ID" of employee to be deleted
+			  Its called "Path Parameter"
+
+
+https://dummy.restapiexample.com/api/v1/delete?empid=2
+		Its called Query Parameter /// QueryString
+
+

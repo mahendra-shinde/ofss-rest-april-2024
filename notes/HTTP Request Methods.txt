@@ -1,0 +1,12 @@
+HTTP Request Methods:
+
+------------------------Guidelines--------------------------------
+GET		: Should be used for READ operations
+POST		: Should be used for CREATE operations
+PUT		: Should be used for UPDATE operations
+DELETE		: Shoulde be used for DELETE operations
+------
+ OPTIONS	: List all the supported methods
+ HEAD		: View only headers
+------
+

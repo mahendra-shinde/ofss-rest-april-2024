@@ -1,0 +1,22 @@
+@Produces({"application/json","application/xml"})
+public class CustomerResource {
+
+	@GET @Path("/customer")
+	public Customer getCustomer() {
+		Customer customer = new Customer();
+		customer.setCustomerId("234");
+		customer.setFirstName("John");
+		customer.setLastName("Styverd");
+		customer.setEmailId("john@oracle.com");
+		return customer;
+	}
+	
+	@GET @Path("/customers/all")
+	public List<Customer> getCustomers() {
+		List<Customer> customerList = new ArrayList<>();
+		customerList.add(new Customer("234","John","Styverd","john@oracle.com"));
+		customerList.add(new Customer("456","Andrew","Praise","andrew@oracle.com"));
+		customerList.add(new Customer("785","James","Peter","james@oracle.com"));
+		return customerList;
+	}
+}

@@ -1,0 +1,16 @@
+REST Architecture
+
+What are benefits of REST ? 
+What are the Use-cases ?
+Understand JAX-RS api (Part of Java EE)
+JAX-RS Implementations
+Java EE Servers and built-in JAXRS Implementations
+How JAX-RS Work !
+Sample ENV:
+  Java 11/8 + Apache TomEE (Modified version of Tomcat) + Eclipse IDE
+REST Endpoints 
+REST (HTTP) Methods
+Content Negotiations
+HTTP Entities
+Build and Deploy REST API
+

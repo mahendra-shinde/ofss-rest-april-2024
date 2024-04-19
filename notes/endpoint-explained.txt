@@ -1,0 +1,7 @@
+http://localhost:8080/demo-1/api/v1/hello
+
+
+localhost:8080	Hostname > Request must be handled tomcat
+demo-1			 > web-application context (project name)
+/api/v1			 > REST Application config
+/hello			 > REST endpoint 

@@ -1,0 +1,13 @@
+Response Entity
+
+OK		--> 200
+Not Found 	--> 404
+Authentication  --> 401
+Authorization   --> 403
+
+
+Custom Entities
+201 --> Successful "create" operations
+202 --> Successful "fetch" operation
+
+return Response.status(201).entity("Record created").build();

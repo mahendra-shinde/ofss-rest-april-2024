@@ -1,0 +1,6 @@
+A New REST Project with model class "Customer"
+   firstname, lastname, email and custId
+
+CustomerResource
+  api/v1/customer	--> Single customer in JSON/XML
+  api/v1/customer/all	--> THree customers in a list (JSON/XML)
